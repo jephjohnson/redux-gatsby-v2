@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 
 import Navbar from '../navbar/'
 import Counter from '../counter/'
-import '../all.sass'
+import '../../sass/all.sass'
 
 const TemplateWrapper = ({ children }) => (
   <div>
