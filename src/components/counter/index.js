@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { connect } from "react-redux"
 import { bindActionCreators } from "redux";
-import { increaseCounter, decreaseCounter, indexCounter} from "../actions/counterAction"
+import { increaseCounter, decreaseCounter, indexCounter} from "../../actions/counterAction"
 
 const mapStateToProps = (state) => ({ count: state.counter.count });
 const mapDispatchToProps = (dispatch) => bindActionCreators({increaseCounter, decreaseCounter, indexCounter}, dispatch)
